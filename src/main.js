@@ -1,5 +1,10 @@
 import React from 'react';
-import { View, Animated, Image, StyleSheet } from 'react-native';
+import { 
+    View, 
+    Animated, 
+    Image, 
+    StyleSheet,
+} from 'react-native';
 import MapView from 'react-native-maps';
 import GeoCoder from 'react-native-geocoder';
 import LocationPin from './components/LocationPin';
