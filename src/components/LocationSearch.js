@@ -33,17 +33,20 @@ const styles = StyleSheet.create({
         borderColor: '#ccc',
         borderWidth: 1,
     },
+
     title: {
         alignSelf: 'center',
         fontSize: 12,
         color: '#00ff00',
         fontWeight: 'bold',
     },
+
     location: {
         height: 40,
         textAlign: 'center',
         fontSize: 13,
     },
+    
     spinner: {
         margin: 10,
     },

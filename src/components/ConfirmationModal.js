@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#0006',
         justifyContent: 'center',
     },
+
     container: {
         backgroundColor: '#fff',
         alignSelf: 'center',
@@ -84,12 +85,14 @@ const styles = StyleSheet.create({
         borderColor: '#ccc',
         borderWidth: 1,
     },
+
     title: {
         textAlign: 'right',
         fontFamily: 'San Francisco',
         paddingTop: 5,
         fontSize: 12,
     },
+
     spinner: {
         resizeMode: 'contain',
         height: 50,
@@ -97,6 +100,7 @@ const styles = StyleSheet.create({
         margin: 50,
         alignSelf: 'center',
     },
+
     closeButton: {
         backgroundColor: '#333',
         width: 40,
@@ -105,6 +109,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignSelf: 'center',
     },
+    
     closeButtonText: {
         color: '#fff',
         alignSelf: 'center',

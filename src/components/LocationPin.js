@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
         top: height / 2 - 60,
         left: width / 2 - 120,
     },
+
     banner: {
         flexDirection: 'row',
         alignSelf: 'center',
@@ -51,6 +52,7 @@ const styles = StyleSheet.create({
         shadowRadius: 5,
         shadowOpacity: 1.0,
     },
+
     bannerText: {
         alignSelf: 'center',
         color: '#fff',
@@ -58,6 +60,7 @@ const styles = StyleSheet.create({
         marginLeft: 10,
         fontSize: 18,
     },
+
     bannerButton: {
         borderWidth: 1,
         borderColor: '#ccc',
@@ -65,12 +68,14 @@ const styles = StyleSheet.create({
         height: 26,
         borderRadius: 13,
     },
+
     bannerButtonText: {
         color: '#fff',
         textAlign: 'center',
         backgroundColor: 'transparent',
         fontSize: 18,
     },
+    
     bannerPole: {
         backgroundColor: '#333',
         width: 3,
