@@ -45,7 +45,7 @@ export default class ClassSelection extends React.Component {
             <View style={styles.container}>
                 <Image
                     style={styles.classBar}
-                    source={require('../../img/classNar.png')}
+                    source={require('../../img/classBar.png')}
                 />
                 <Animated.View style={[styles.classButton, {
                     left: this.state.classButtonPosition
